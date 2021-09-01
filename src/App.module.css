@@ -1,5 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background: url('./Images/istockphoto-1215768524-612x612.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    
 }
 .container {
     display: flex;
@@ -9,7 +21,7 @@ body{
 }
 .image{
     width: 470px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 @media (max-width: 570px) {

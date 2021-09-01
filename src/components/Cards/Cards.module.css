@@ -3,17 +3,46 @@
 }
 
 .card{
-    margin: 0 2% !important;
+    margin: 0 4% !important;
+    
 }
+
 
 .infected{
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    transform: scaleZ(1);
+    transition: 0.7s !important;
+    background-color: rgba(255, 255, 255, 0.356) !important;
+    box-shadow: 7px 6px 8px 2px #034463 !important;
+    border-bottom-left-radius: 20px !important ;
+    border-top-right-radius: 20px !important;
 }
+.infected:hover{
+    transform: scale(1.15);
+}
+
 .recovered{
     border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    transform: scaleZ(1);
+    transition: 0.7s !important;
+    background-color: rgba(255, 255, 255, 0.356) !important;
+    box-shadow: 7px 6px 8px 2px #034463 !important;
+    border-bottom-left-radius: 20px !important ;
+}
+.recovered:hover{
+    transform: scale(1.15);
 }
 .deaths{
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    transform: scaleZ(1);
+    transition: 0.7s !important;
+    background-color: rgba(255, 255, 255, 0.356) !important;
+    box-shadow: 7px 6px 8px 2px #034463 !important;
+    border-bottom-left-radius: 20px !important ;
+    border-top-right-radius: 20px !important;
+}
+.deaths:hover{
+    transform: scale(1.15);
 }
 
 @media (max-width: 570px){
