@@ -4,18 +4,23 @@
 
 .card{
     margin: 0 4% !important;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 
 .infected{
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
     transform: scaleZ(1);
-    transition: 0.7s !important;
+    transition: 0.6s !important;
     background-color: rgba(255, 255, 255, 0.356) !important;
     box-shadow: 7px 6px 8px 2px #034463 !important;
-    border-bottom-left-radius: 20px !important ;
-    border-top-right-radius: 20px !important;
+    border-top-left-radius: 47px !important;
+    border-top-right-radius: 47px !important;
+    font-family: 'Baloo 2', cursive;
+    margin: 0px;
+    padding: 0%;
 }
 .infected:hover{
     transform: scale(1.15);
@@ -27,7 +32,9 @@
     transition: 0.7s !important;
     background-color: rgba(255, 255, 255, 0.356) !important;
     box-shadow: 7px 6px 8px 2px #034463 !important;
-    border-bottom-left-radius: 20px !important ;
+    border-top-left-radius: 47px !important;
+    border-top-right-radius: 47px !important;
+    font-family: 'Baloo 2', cursive;
 }
 .recovered:hover{
     transform: scale(1.15);
@@ -38,11 +45,34 @@
     transition: 0.7s !important;
     background-color: rgba(255, 255, 255, 0.356) !important;
     box-shadow: 7px 6px 8px 2px #034463 !important;
-    border-bottom-left-radius: 20px !important ;
-    border-top-right-radius: 20px !important;
+    border-top-left-radius: 47px !important;
+    border-top-right-radius: 47px !important;
+    font-family: 'Baloo 2', cursive;
 }
 .deaths:hover{
     transform: scale(1.15);
+}
+
+.infected h2{
+    color: rgb(0 14 255);
+    font-size: 2.2rem;
+    margin: 0px;
+    padding: 0%;
+    text-shadow: 0 0 5px #509eff;
+}
+.recovered h2{
+    color: rgb(11 151 12);
+    font-size: 2.2rem;
+    margin: 0px;
+    padding: 0%;
+    text-shadow: 0 0 5px #5fff72;
+}
+.deaths h2{
+    color: rgb(208 0 0);
+    font-size: 2.2rem;
+    margin: 0px;
+    padding: 0%;
+    text-shadow: 0 0 5px #ff6666;
 }
 
 @media (max-width: 570px){
